@@ -1,9 +1,24 @@
 .container{
     background-image: url('https://c4.wallpaperflare.com/wallpaper/413/916/1009/purple-4k-lavender-farm-blossom-wallpaper-preview.jpg');
+    /* display :flex; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 150px;
+    background:#430A5D;
+    padding-bottom :30px;
+    width: 600px;
+    border-radius: 10%;
+    opacity: 0.8;
+
+}
+
+.container2{
+    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/413/916/1009/purple-4k-lavender-farm-blossom-wallpaper-preview.jpg'); */
     display :flex;
     flex-direction: column;
-    margin: auto;
-    margin-top: 200px;
+    margin-left: 900px;
+    margin-top: 150px;
     background:#430A5D;
     padding-bottom :30px;
     width: 600px;
@@ -14,11 +29,7 @@
 
 
 body{
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    margin: 0;
-    background-image: url('../assets/Lavender-Farms-in-Ontario-for-a-Day-Trip.webp');
+    /* background-image: url('../assets/Lavender-Farms-in-Ontario-for-a-Day-Trip.webp'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -112,8 +123,4 @@ body{
     font-size:19px;
     font-weight: 700;
     cursor: pointer;
- }
- .gray{
-    background: #eaeaea;
-    color: #676767;
  }
