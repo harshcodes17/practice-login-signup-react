@@ -9,12 +9,14 @@
     flex-direction: column;
     /* margin: 500px 500px 500px 500px; */
     margin: auto;
+    margin-left: 430px;
     margin-top: 70px;
     background:#430A5D;
     padding-bottom :30px;
     width: 600px;
     border-radius: 10%;
     opacity: 0.8;
+
 
 }
 
