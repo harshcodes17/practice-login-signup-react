@@ -1,12 +1,18 @@
+
+.parent-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 .container{
     background-image: url('https://c4.wallpaperflare.com/wallpaper/413/916/1009/purple-4k-lavender-farm-blossom-wallpaper-preview.jpg');
-    /* display :flex; */
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    margin-left: 100px;
     margin-top: 150px;
     background:#430A5D;
     padding-bottom :30px;
+    margin-right: 400px;
     width: 600px;
     border-radius: 10%;
     opacity: 0.8;
@@ -14,12 +20,11 @@
 }
 
 .container2{
-    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/413/916/1009/purple-4k-lavender-farm-blossom-wallpaper-preview.jpg'); */
-    display :flex;
+    display :inline-block;
     flex-direction: column;
-    margin-left: 900px;
     margin-top: 150px;
     background:#430A5D;
+    
     padding-bottom :30px;
     width: 600px;
     border-radius: 10%;
@@ -107,7 +112,7 @@ body{
 .submit-container{
     display: flex;
     gap: 30px;
-    margin: 60px auto; 
+    margin: 5rem; 
  }
 
  .submit{
