@@ -1,8 +1,9 @@
 .navbar {
     display: flex;
+    margin-left: 1000px;
     justify-content: space-between;
     padding: 20px;
-    background-color: #430A5D;
+    background-color: #430A5D;  
     opacity: 0.8;
     border-radius: 13px;
 }

@@ -10,7 +10,7 @@ const HomePage = () => {
     <>
       <div className="homepage">
         <Navbar></Navbar>
-        <h1 className="site-title">Kshetra Vriddhi</h1>
+        
         <div className="main_container">
           
           <div className="container">
@@ -47,7 +47,7 @@ const HomePage = () => {
               <img src={user_icon} alt="user" className="icon" />
               <div className="yo">
                 <div className="fields">
-                  <p>Personal Details</p>
+                  <p>Loan Application</p>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ const HomePage = () => {
               <img src={identity_icon} alt="identity" className="icon" />
               <div className="Too">
                 <div className="fields">
-                  <p>Identity Verification</p>
+                  <p>Land Details</p>
                 </div>
               </div>
             </div>
@@ -65,13 +65,15 @@ const HomePage = () => {
               <img src={government_icon} alt="government" className="icon" />
               <div className="zoo">
                 <div className="fields">
-                  <p>Government Rules</p>
+                  <p>Past Loan Details</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <h1 className="site-title">Kshetra Vriddhi</h1>
       </div>
+
     </>
   );
 };

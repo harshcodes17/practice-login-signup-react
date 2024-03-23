@@ -9,6 +9,13 @@
     opacity: 0.8;
 }
 
+.fields {
+    display: flex; /* Make this a flex container */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Take up the full width of the parent */
+}
+
 .container, .container2{
     background: #430A5D; /* light lavender background for containers */
     display: flex;
@@ -47,6 +54,7 @@
     width: 50px;
     height: 50px;
     margin-right: 10px; 
+    margin-left: 10px;
    
 }
 
@@ -63,7 +71,7 @@
     justify-content: flex-start; /* align items to the start of the container */
     align-items: center; /* vertically center the items */
     margin-bottom: 20px;
-    width: 400px;
+    width: 350px;
     height: 65px;
     color: #333;
     background: #eaeaea;
@@ -80,7 +88,7 @@ body{
     place-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('../assets/Lavender-Farms-in-Ontario-for-a-Day-Trip.webp');
+    /* background-image: url('../assets/Lavender-Farms-in-Ontario-for-a-Day-Trip.webp'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
