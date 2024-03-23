@@ -1,79 +1,78 @@
 import React from "react";
 import "./HomePage.css";
 import user_icon from "../assets/person.png";
-import email_icon from "../assets/email.png";
-import password_icon from "../assets/password.png";
+import identity_icon from "../assets/identity.png";
+import government_icon from "../assets/government.png";
+import Navbar from "./Navbar";
+
 const HomePage = () => {
   return (
-    <div>
-      <h1>Navbar</h1>
-
-      <div className="parent-container">
-        <div className="container">
-          <div className="header">
-            <div className="text"> Sign Up </div>
-            <div className="underline"></div>
-          </div>
-
-          <div className="inputs">
-            <div className="input">
-              <img src={user_icon} alt="" />
-              <input type="text" placeholder="Name" />
+    <>
+      <div className="homepage">
+        <Navbar></Navbar>
+        <h1 className="site-title">Kshetra Vriddhi</h1>
+        <div className="main_container">
+          
+          <div className="container">
+            <div className="first">
+              <img src={user_icon} alt="user" className="icon" />
+              <div className="yo">
+                <div className="fields">
+                  <p>Personal Details</p>
+                </div>
+              </div>
             </div>
 
-            <div className="input">
-              <img src={email_icon} alt="" />
-              <input type="email" placeholder="Email Id" />
+            <div className="second">
+              <img src={identity_icon} alt="identity" className="icon" />
+              <div className="Too">
+                <div className="fields">
+                  <p>Identity Verification</p>
+                </div>
+              </div>
             </div>
 
-            <div className="input">
-              <img src={password_icon} alt="" />
-              <input type="password" placeholder="Password" />
-            </div>
-          </div>
-
-          <div className="fogot-password">
-            Lost password? <span>Click here!</span>
-          </div>
-          <div className="submit-container">
-            <div className="submit"> Sign Up</div>
-            <div className="submit"> Login</div>
-          </div>
-        </div>
-
-        <div className="container2">
-          <div className="header">
-            <div className="text"> Sign Up </div>
-            <div className="underline"></div>
-          </div>
-
-          <div className="inputs">
-            <div className="input">
-              <img src={user_icon} alt="" />
-              <input type="text" placeholder="Name" />
-            </div>
-
-            <div className="input">
-              <img src={email_icon} alt="" />
-              <input type="email" placeholder="Email Id" />
-            </div>
-
-            <div className="input">
-              <img src={password_icon} alt="" />
-              <input type="password" placeholder="Password" />
+            <div className="third">
+              <img src={government_icon} alt="government" className="icon" />
+              <div className="zoo">
+                <div className="fields">
+                  <p>Government Rules</p>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="fogot-password">
-            Lost password? <span>Click here!</span>
-          </div>
-          <div className="submit-container">
-            <div className="submit"> Sign Up</div>
-            <div className="submit"> Login</div>
+          <div className="container2">
+            <div className="fourth">
+              <img src={user_icon} alt="user" className="icon" />
+              <div className="yo">
+                <div className="fields">
+                  <p>Personal Details</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="fifth">
+              <img src={identity_icon} alt="identity" className="icon" />
+              <div className="Too">
+                <div className="fields">
+                  <p>Identity Verification</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="six">
+              <img src={government_icon} alt="government" className="icon" />
+              <div className="zoo">
+                <div className="fields">
+                  <p>Government Rules</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

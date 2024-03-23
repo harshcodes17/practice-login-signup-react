@@ -1,131 +1,92 @@
-
-.parent-container {
+.main_container{
     display: flex;
-    justify-content: space-around;
-}
-
-
-.container{
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/413/916/1009/purple-4k-lavender-farm-blossom-wallpaper-preview.jpg');
-    display: inline-block;
-    flex-direction: column;
-    margin-top: 150px;
-    background:#430A5D;
-    padding-bottom :30px;
-    margin-right: 400px;
-    width: 600px;
-    border-radius: 10%;
-    opacity: 0.8;
-
+    justify-content: center;
+    padding: 20px;
+    color: #ffffff;
 }
 
 .container2{
-    display :inline-block;
-    flex-direction: column;
-    margin-top: 150px;
-    background:#430A5D;
-    
-    padding-bottom :30px;
-    width: 600px;
-    border-radius: 10%;
     opacity: 0.8;
-
 }
 
-
-body{
-    /* background-image: url('../assets/Lavender-Farms-in-Ontario-for-a-Day-Trip.webp'); */
+.container, .container2{
+    background: #430A5D; /* light lavender background for containers */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+.homepage {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../assets/Lavender-Farms-in-Ontario-for-a-Day-Trip.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
-
-}
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 9px;
-    width: 100%;    
-    margin-top: 30px;
-    /* margin-bottom: 20px; */
+    background-size: cover;
 }
 
-.text{
+.first, .second, .third, .fourth, .fifth, .six {
+    display: flex; /* Make this a flex container */
+    align-items: center; /* Center items vertically */
+}
+
+.site-title {
+    text-align: center;
+    font-size: 2.5em; /* Increase the size a little */
+    font-family: 'Georgia', serif; /* Change the font to Georgia */
     color: #fff;
-    font-size: 48px;
-    font-weight: 700;
-}
-.underline{
-    width:80px;
-    height:6px;
-    background: #fff;
-    border-radius:9px;
-
-
-
-}
-.inputs{
-    margin-top: 55px;
-    display: flex;
-    flex-direction: column;
-    gap:25px
+    margin-bottom: 20px;
 }
 
-.input{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    /* margin-bottom: 20px; */
-    width:480px;
-    height:80px;
-    background-color: #eaeaea;
-    border-radius: 6px;
-
-}
-.inputs img{
-    margin: 0px 30px;
-}
-
-
-
-.input input{
+.icon {
+    width: 50px;
     height: 50px;
-    width: 400px;
-    background: transparent;
-    border: none;
-    outline :none;
-    color: #212020;
-    font-size: 19px;
+    margin-right: 10px; 
+   
 }
-.fogot-password{
-    padding-left: 62px;
-    margin-top: 27px;
-    color:#797979;
-    font-size: 18px;
 
- }
-.fogot-password span{
-    color:#fff;
-    cursor:pointer;
+.container h2, .container2 h2{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
 
- }
-.submit-container{
+.yo, .zoo, .Too {
     display: flex;
-    gap: 30px;
-    margin: 5rem; 
- }
-
- .submit{
-    font-size: 19px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 220px;
-    height: 59px;
-    color: #430A5D;
-    background: #fff;
-    border-radius: 50px;
-    font-size:19px;
+    flex-direction: row; /* align items horizontally */
+    justify-content: flex-start; /* align items to the start of the container */
+    align-items: center; /* vertically center the items */
+    margin-bottom: 20px;
+    width: 400px;
+    height: 65px;
+    color: #333;
+    background: #eaeaea;
+    border-radius: 20px;
+    font-size: 16px;
     font-weight: 700;
     cursor: pointer;
- }
+    margin: 20px auto;
+    padding-left: 20px; /* add some padding to the left */
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../assets/Lavender-Farms-in-Ontario-for-a-Day-Trip.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.gray{
+    background: #eaeaea;
+    color: #676767;
+}
